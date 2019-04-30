@@ -3,15 +3,15 @@
 # make sure directory path is ok when script is started from anywhere
 MYDIR="$(dirname -- "$0")"
 
-# manually install vim with lua support
-./install_vim_lua.sh
-
 # .vimrc install
 cp $MYDIR/vimrc ~/.vimrc
 
 # .vim install
 rm -rf ~/.vim || true
 cp -r $MYDIR/vim ~/.vim
+
+# nvim install
+cp -r $MYDIR/nvim ~/.config/
 
 # .bash_aliases install
 cp $MYDIR/bash_aliases ~/.bash_aliases
@@ -23,8 +23,9 @@ cp $MYDIR/tmux.conf ~/.tmux.conf
 rm -rf ~/scripts || true
 cp -r $MYDIR/scripts ~/scripts
 
-# YCM plugin install
-./install_ycm.sh
+# create folder for cscope connections
+mkdir ~/.cscope
 
-# color_coded plugin install
-./install_cc.sh
+# YCM plugin install
+$MYDIR/install_ycm.sh
+

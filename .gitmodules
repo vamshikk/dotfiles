@@ -1,0 +1,36 @@
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "vim/bundle/incsearch.vim"]
+	path = vim/bundle/incsearch.vim
+	url = https://github.com/haya14busa/incsearch.vim
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/bundle/vim-nerdtree-tabs"]
+	path = vim/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule "vim/bundle/vim-todo-lists"]
+	path = vim/bundle/vim-todo-lists
+	url = https://github.com/aserebryakov/vim-todo-lists
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "vim/bundle/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "vim/bundle/vim-gutentags"]
+	path = vim/bundle/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags
+[submodule "vim/bundle/gutentags_plus"]
+	path = vim/bundle/gutentags_plus
+	url = https://github.com/skywind3000/gutentags_plus
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "vim/bundle/delimitMate"]
+	path = vim/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go
